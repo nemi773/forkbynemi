@@ -15,5 +15,6 @@ public class TakesScreenCode {
 		File temp = ts.getScreenshotAs(OutputType.FILE);
 		File dest=new File("");
 		FileHandler.copy(temp, dest);
+		System.out.println("Hey im Nemi");
 	}
 }
